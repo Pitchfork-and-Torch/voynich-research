@@ -315,7 +315,7 @@ Why that pair, not another text-only page:
 1. Transcribe f10v from IT **and** ZL; list hapax / P-freq < 5 tokens. Those are the only name candidates.
 2. Check the claimed f89v2 lookalike for those rare tokens (and for the f9v hapax set). A hit is a positive for "labels are names." A miss is not fatal.
 3. Count `daiin/dain/chol/chor/ol/or` on f10v. Prediction: they stay common.
-4. If doing the f99r backup instead: score `ok-`/`ot-` on `L` vs `P`; ask whether `otoldy`/`toldy`/`ytoldy`/`tsholdy` behave as one lemma.
+4. If doing the f99r backup instead: score `ok-`/`ot-` vs `qo-` on `L` vs `P`; ask whether `otoldy`/`toldy`/`ytoldy`/`tsholdy` behave as one lemma.
 5. Do **not** identify any plant as a species. Do **not** import the f9v viola ID.
 
 **Other backups:** f2v (chol/daiin/chor-heavy negative control) and f65r (the only multi-word `Lp`).
