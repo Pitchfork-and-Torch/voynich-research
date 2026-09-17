@@ -9,8 +9,12 @@ is identified.
 
 Public product of Pitchfork-and-Torch. License: MIT.
 
-## Last status (2026-08-15 ET)
+## Last status (2026-09-17 ET)
 
+- Gauntlet 2: label prefix register vs line-position null. **NULL** for the
+  attack. Line-initial P `qo-` 12.6%, `ok+ot` 5.7%; L 0.9% / 33.0%.
+  Page-matched permutation p < 1e-5 both ways, IT and ZL. The label register
+  is not a line-start effect. No folio opened.
 - Passes 1-7: folio walks on f1r, f9v, f10v, f99r, f99v, f65r, f41v.
 - Pass 8: statistical pass on leftover herbal `@Lp` token `keerodal`.
   Still unique (paragraph count 0, label count 1). Not a plant name.
@@ -39,6 +43,13 @@ Next is idle. Do not open a new folio unless a new gate is named.
 | [notes/pass-8-keerodal.md](notes/pass-8-keerodal.md) | `keerodal` uniqueness |
 | [notes/gauntlet-1-herbalA-labels.md](notes/gauntlet-1-herbalA-labels.md) | Herbal-A f1r-f8v FAIL |
 | [notes/gauntlet-1-f75r.md](notes/gauntlet-1-f75r.md) | Later gauntlet note (balneo hold) |
+| [notes/gauntlet-2-line-position-null.md](notes/gauntlet-2-line-position-null.md) | Label register vs line-position null: NULL |
+
+## Scripts
+
+| File | What it is |
+|---|---|
+| [scripts/line_position_null.py](scripts/line_position_null.py) | Gauntlet 2 scorer. Takes the two public IVTFF files as arguments, prints JSON. Needs `numpy`. |
 
 ## Method (series default, passes 2-8)
 
