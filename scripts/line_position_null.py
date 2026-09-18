@@ -46,7 +46,9 @@ def read_loci(path, zl=False):
         if not line or line.startswith("#"):
             continue
         if line.startswith("/"):
-            out[-1]["raw"] += line[1:]
+            # Orphan continuations (before any locus) used to IndexError on out[-1].
+            if out:
+                out[-1]["raw"] += line[1:]
             continue
         head, _, rest = line.partition(">")
         head = head + ">"

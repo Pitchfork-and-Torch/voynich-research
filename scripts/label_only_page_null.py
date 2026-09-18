@@ -136,8 +136,10 @@ def page_matched_perm(l_recs, p_recs, n_perm=N_PERM, seed=SEED):
         "null_qo_max": int(null_qo.max()),
         "null_okot_min": int(null_ok.min()),
         "null_okot_max": int(null_ok.max()),
-        "p_le_qo": float(np.mean(null_qo <= obs_qo)),
-        "p_ge_okot": float(np.mean(null_ok >= obs_ok)),
+        # Add-one correction: raw mean can report p=0.0 even when the null
+        # never beat the observation; match line_position_null.py.
+        "p_le_qo": float((int((null_qo <= obs_qo).sum()) + 1) / (n_perm + 1)),
+        "p_ge_okot": float((int((null_ok >= obs_ok).sum()) + 1) / (n_perm + 1)),
     }
 
 

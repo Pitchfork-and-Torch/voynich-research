@@ -98,10 +98,10 @@ Reading:
 
 | Statistic | L1 obs | null mean | null range | p |
 |---|---|---|---|---|
-| **S1 `qo-`** | 8 / 632 = 1.27% | 78.5 (12.4%) | 47-111 | **p_le = 0** [< 1e-5] |
-| **S2 `ok+ot`** | 171 / 632 = 27.1% | 80.5 (12.7%) | 50-114 | **p_ge = 0** [< 1e-5] |
+| **S1 `qo-`** | 8 / 632 = 1.27% | 78.5 (12.4%) | 47-111 | **p_le < 1e-5** [< 1e-5] |
+| **S2 `ok+ot`** | 171 / 632 = 27.1% | 80.5 (12.7%) | 50-114 | **p_ge < 1e-5** [< 1e-5] |
 
-Observed L1 `qo-` count (8) never reached from below (minimum null 47). Observed `ok+ot` (171) never reached from above (maximum null 114). ZL agrees (p = 0 both ways on 40 pages / 765 L1).
+Observed L1 `qo-` count (8) never reached from below (minimum null 47). Observed `ok+ot` (171) never reached from above (maximum null 114). ZL agrees (p < 1e-5 both ways (add-one) on 40 pages / 765 L1).
 
 ### 3.3 Secondary: L0 vs L1
 
@@ -126,7 +126,7 @@ Odd vs even L tokens (stable index split): `qo-` and `ok+ot` gaps are small next
 | C1 split | 406 L0 / 632 L1; 16 / 36 pages | **pass** |
 | C2 odd/even L | gaps << P-to-L gap | **pass** |
 
-ZL control agrees on verdict and on every direction that matters (L1 still label-shaped; N2 p = 0 both ways).
+ZL control agrees on verdict and on every direction that matters (L1 still label-shaped; N2 p < 1e-5 both ways (add-one)).
 
 ---
 
@@ -136,11 +136,11 @@ ZL control agrees on verdict and on every direction that matters (L1 still label
 |---|---|---|---|
 | L1 `qo-` | <= 3.0% for NULL | 1.27% | **NULL clause met** |
 | L1 `ok+ot` | >= 22.0% for NULL | 27.1% | **NULL clause met** |
-| N2 S1 `qo-` | p < 0.001 | p_le = 0 | **NULL clause met** |
-| N2 S2 `ok+ot` | p < 0.001 | p_ge = 0 | **NULL clause met** |
+| N2 S1 `qo-` | p < 0.001 | p_le < 1e-5 | **NULL clause met** |
+| N2 S2 `ok+ot` | p < 0.001 | p_ge < 1e-5 | **NULL clause met** |
 | HIT bound | L1 qo >= 5% or ok+ot <= 18% or N2 p > 0.01 | none met | not met |
 
-**The label-only-page confound is rejected as a killer of the law.** Dropping the 16 label-only pages softens `ok+ot` (42% -> 27%) but leaves L1 cleanly label-shaped against the running text on the same 36 pages, at p = 0 against an exact within-page null, in both transliterations.
+**The label-only-page confound is rejected as a killer of the law.** Dropping the 16 label-only pages softens `ok+ot` (42% -> 27%) but leaves L1 cleanly label-shaped against the running text on the same 36 pages, at p < 1e-5 against an exact within-page null, in both transliterations.
 
 This is a negative result for the attack and a second structural survival for the held law. It is not a decipherment and not a claim about what labels mean.
 
@@ -185,6 +185,6 @@ This is a negative result for the attack and a second structural survival for th
 
 No folio. No translation. No plant ID. No language ID.
 
-**IT L0 (label-only): `qo-` 0.25%, `ok+ot` 42.4%. IT L1 (page-matched): `qo-` 1.27%, `ok+ot` 27.1% vs same-page P 19.9% / 8.6%. Page-matched permutation, 100,000 draws: p = 0 both ways. ZL agrees. The label register is not a label-only-page effect. NULL for the attack; the held law is compounded again.**
+**IT L0 (label-only): `qo-` 0.25%, `ok+ot` 42.4%. IT L1 (page-matched): `qo-` 1.27%, `ok+ot` 27.1% vs same-page P 19.9% / 8.6%. Page-matched permutation, 100,000 draws: p < 1e-5 both ways (add-one). ZL agrees. The label register is not a label-only-page effect. NULL for the attack; the held law is compounded again.**
 
 Reproduce: `python3 scripts/label_only_page_null.py IT2a-n.txt ZL3b-n.txt > results.json`.
