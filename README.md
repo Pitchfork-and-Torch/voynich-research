@@ -13,8 +13,8 @@ Public product of Pitchfork-and-Torch. License: MIT.
 
 - Gauntlet 3: label prefix register vs label-only-page null. **NULL** for the
   attack. L0 (406, mostly zodiac) `ok+ot` 42.4%; L1 (632, page-matched)
-  `qo-` 1.27% / `ok+ot` 27.1% vs same-page P 19.9% / 8.6%. Permutation p = 0
-  both ways, IT and ZL. The register is not a label-only-page effect. No folio
+  `qo-` 1.27% / `ok+ot` 27.1% vs same-page P 19.9% / 8.6%. Permutation p < 1e-5
+  both ways (add-one), IT and ZL. The register is not a label-only-page effect. No folio
   opened.
 - Gauntlet 2: label prefix register vs line-position null. **NULL** for the
   attack. Line-initial P `qo-` 12.6%, `ok+ot` 5.7%; L 0.9% / 33.0%.
