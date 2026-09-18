@@ -201,7 +201,25 @@ def page_permutation(l_recs, p_pool_by_page, hit, n_perm, rng):
     """Within-page relabelling null. For each page the pool is the L tokens
     plus the chosen P tokens on that page; |L| tokens are drawn without
     replacement. The hit count per page is hypergeometric, so the null is
-    sampled exactly with numpy rather than by shuffling."""
+    sampled exactly with numpy rather than by shuffling.
+
+    Empty L previously ZeroDivisionError on obs_rate / null_*_rate.
+    """
+    n_l = len(l_recs)
+    if n_l == 0:
+        return {
+            "obs_k": 0,
+            "n_L": 0,
+            "obs_rate": None,
+            "null_mean_rate": None,
+            "null_sd_rate": None,
+            "null_min_k": None,
+            "null_max_k": None,
+            "p_ge": None,
+            "p_le": None,
+            "n_perm": n_perm,
+            "error": "empty_L",
+        }
     by_page = defaultdict(list)
     for r in l_recs:
         by_page[r["page"]].append(r["tok"])
@@ -212,7 +230,6 @@ def page_permutation(l_recs, p_pool_by_page, hit, n_perm, rng):
         n_bad = len(pool) - n_good
         total += rng.hypergeometric(n_good, n_bad, len(ltoks), size=n_perm)
     obs_k = sum(1 for r in l_recs if hit(r["tok"]))
-    n_l = len(l_recs)
     ge = int((total >= obs_k).sum())
     le = int((total <= obs_k).sum())
     return {
