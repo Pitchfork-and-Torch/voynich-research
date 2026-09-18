@@ -11,6 +11,11 @@ Public product of Pitchfork-and-Torch. License: MIT.
 
 ## Last status (2026-09-17 ET)
 
+- Gauntlet 3: label prefix register vs label-only-page null. **NULL** for the
+  attack. L0 (406, mostly zodiac) `ok+ot` 42.4%; L1 (632, page-matched)
+  `qo-` 1.27% / `ok+ot` 27.1% vs same-page P 19.9% / 8.6%. Permutation p = 0
+  both ways, IT and ZL. The register is not a label-only-page effect. No folio
+  opened.
 - Gauntlet 2: label prefix register vs line-position null. **NULL** for the
   attack. Line-initial P `qo-` 12.6%, `ok+ot` 5.7%; L 0.9% / 33.0%.
   Page-matched permutation p < 1e-5 both ways, IT and ZL. The label register
@@ -44,12 +49,14 @@ Next is idle. Do not open a new folio unless a new gate is named.
 | [notes/gauntlet-1-herbalA-labels.md](notes/gauntlet-1-herbalA-labels.md) | Herbal-A f1r-f8v FAIL |
 | [notes/gauntlet-1-f75r.md](notes/gauntlet-1-f75r.md) | Later gauntlet note (balneo hold) |
 | [notes/gauntlet-2-line-position-null.md](notes/gauntlet-2-line-position-null.md) | Label register vs line-position null: NULL |
+| [notes/gauntlet-3-label-only-page-null.md](notes/gauntlet-3-label-only-page-null.md) | Label register vs label-only-page null: NULL |
 
 ## Scripts
 
 | File | What it is |
 |---|---|
 | [scripts/line_position_null.py](scripts/line_position_null.py) | Gauntlet 2 scorer. Takes the two public IVTFF files as arguments, prints JSON. Needs `numpy`. |
+| [scripts/label_only_page_null.py](scripts/label_only_page_null.py) | Gauntlet 3 scorer. Label-only vs page-matched split; prints JSON. Needs `numpy`. |
 
 ## Method (series default, passes 2-8)
 

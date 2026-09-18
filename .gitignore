@@ -1,0 +1,4 @@
+# Local IVTFF downloads (cite voynich.nu; do not republish)
+data/
+__pycache__/
+*.py[cod]
