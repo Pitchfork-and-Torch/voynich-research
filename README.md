@@ -33,6 +33,13 @@ Public product of Pitchfork-and-Torch. License: MIT.
 
 Next is idle. Do not open a new folio unless a new gate is named.
 
+## Related
+
+Night archive of the desks (hypothesis only; not a translation):
+
+- https://folio.jonbailey.xyz/
+- https://github.com/Pitchfork-and-Torch/folio
+
 ## Notes
 
 | File | What it is |
