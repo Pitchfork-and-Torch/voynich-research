@@ -1,0 +1,1700 @@
+{
+  "IT": {
+    "file": "IT2a-n.txt",
+    "zl": false,
+    "calibration": {
+      "n_p": 34486,
+      "n_l": 1038,
+      "n_types_p": 7140,
+      "n_types_l": 763,
+      "P_prefix": {
+        "n": 34486,
+        "types": 7140,
+        "qo": {
+          "k": 5193,
+          "rate": 0.1506,
+          "ci95": [
+            0.1468,
+            0.1544
+          ]
+        },
+        "ok": {
+          "k": 2060,
+          "rate": 0.0597,
+          "ci95": [
+            0.0573,
+            0.0623
+          ]
+        },
+        "ot": {
+          "k": 1864,
+          "rate": 0.0541,
+          "ci95": [
+            0.0517,
+            0.0565
+          ]
+        },
+        "ok+ot": {
+          "k": 3924,
+          "rate": 0.1138,
+          "ci95": [
+            0.1105,
+            0.1172
+          ]
+        },
+        "mean_len": 5.067
+      }
+    },
+    "families_pre_registered": {
+      "NAME": [
+        "Lf",
+        "Lc",
+        "Lp"
+      ],
+      "FIGURE": [
+        "Ln",
+        "Lt"
+      ],
+      "ZODIAC": [
+        "Lz"
+      ],
+      "STARISH": [
+        "Ls"
+      ],
+      "OTHER": [
+        "L0",
+        "La",
+        "Lx"
+      ]
+    },
+    "by_ltype": {
+      "Lz": {
+        "family": "ZODIAC",
+        "n": 367,
+        "types": 297,
+        "qo": {
+          "k": 1,
+          "rate": 0.0027,
+          "ci95": [
+            0.0005,
+            0.0153
+          ]
+        },
+        "ok": {
+          "k": 81,
+          "rate": 0.2207,
+          "ci95": [
+            0.1813,
+            0.2659
+          ]
+        },
+        "ot": {
+          "k": 81,
+          "rate": 0.2207,
+          "ci95": [
+            0.1813,
+            0.2659
+          ]
+        },
+        "ok+ot": {
+          "k": 162,
+          "rate": 0.4414,
+          "ci95": [
+            0.3915,
+            0.4926
+          ]
+        },
+        "mean_len": 5.379,
+        "qo_tokens": [
+          "qokeoly"
+        ]
+      },
+      "Lf": {
+        "family": "NAME",
+        "n": 216,
+        "types": 198,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0175
+          ]
+        },
+        "ok": {
+          "k": 27,
+          "rate": 0.125,
+          "ci95": [
+            0.0873,
+            0.1758
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1667,
+          "ci95": [
+            0.1229,
+            0.2221
+          ]
+        },
+        "ok+ot": {
+          "k": 63,
+          "rate": 0.2917,
+          "ci95": [
+            0.2351,
+            0.3555
+          ]
+        },
+        "mean_len": 5.523,
+        "qo_tokens": []
+      },
+      "L0": {
+        "family": "OTHER",
+        "n": 196,
+        "types": 125,
+        "qo": {
+          "k": 4,
+          "rate": 0.0204,
+          "ci95": [
+            0.008,
+            0.0513
+          ]
+        },
+        "ok": {
+          "k": 10,
+          "rate": 0.051,
+          "ci95": [
+            0.0279,
+            0.0914
+          ]
+        },
+        "ot": {
+          "k": 7,
+          "rate": 0.0357,
+          "ci95": [
+            0.0174,
+            0.0719
+          ]
+        },
+        "ok+ot": {
+          "k": 17,
+          "rate": 0.0867,
+          "ci95": [
+            0.0549,
+            0.1345
+          ]
+        },
+        "mean_len": 3.587,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "Ls": {
+        "family": "STARISH",
+        "n": 82,
+        "types": 81,
+        "qo": {
+          "k": 1,
+          "rate": 0.0122,
+          "ci95": [
+            0.0022,
+            0.0659
+          ]
+        },
+        "ok": {
+          "k": 13,
+          "rate": 0.1585,
+          "ci95": [
+            0.0951,
+            0.2526
+          ]
+        },
+        "ot": {
+          "k": 18,
+          "rate": 0.2195,
+          "ci95": [
+            0.1436,
+            0.3205
+          ]
+        },
+        "ok+ot": {
+          "k": 31,
+          "rate": 0.378,
+          "ci95": [
+            0.2808,
+            0.4862
+          ]
+        },
+        "mean_len": 6.11,
+        "qo_tokens": [
+          "qotoear"
+        ]
+      },
+      "Ln": {
+        "family": "FIGURE",
+        "n": 68,
+        "types": 63,
+        "qo": {
+          "k": 2,
+          "rate": 0.0294,
+          "ci95": [
+            0.0081,
+            0.101
+          ]
+        },
+        "ok": {
+          "k": 16,
+          "rate": 0.2353,
+          "ci95": [
+            0.1503,
+            0.3486
+          ]
+        },
+        "ot": {
+          "k": 9,
+          "rate": 0.1324,
+          "ci95": [
+            0.0712,
+            0.2328
+          ]
+        },
+        "ok+ot": {
+          "k": 25,
+          "rate": 0.3676,
+          "ci95": [
+            0.263,
+            0.4864
+          ]
+        },
+        "mean_len": 4.912,
+        "qo_tokens": [
+          "qokal",
+          "qoted"
+        ]
+      },
+      "Lt": {
+        "family": "FIGURE",
+        "n": 55,
+        "types": 52,
+        "qo": {
+          "k": 1,
+          "rate": 0.0182,
+          "ci95": [
+            0.0032,
+            0.0961
+          ]
+        },
+        "ok": {
+          "k": 10,
+          "rate": 0.1818,
+          "ci95": [
+            0.1019,
+            0.3033
+          ]
+        },
+        "ot": {
+          "k": 17,
+          "rate": 0.3091,
+          "ci95": [
+            0.2028,
+            0.4403
+          ]
+        },
+        "ok+ot": {
+          "k": 27,
+          "rate": 0.4909,
+          "ci95": [
+            0.3638,
+            0.6192
+          ]
+        },
+        "mean_len": 5.727,
+        "qo_tokens": [
+          "qotedy"
+        ]
+      },
+      "Lc": {
+        "family": "NAME",
+        "n": 40,
+        "types": 40,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "ok": {
+          "k": 7,
+          "rate": 0.175,
+          "ci95": [
+            0.0875,
+            0.3195
+          ]
+        },
+        "ot": {
+          "k": 6,
+          "rate": 0.15,
+          "ci95": [
+            0.0706,
+            0.2907
+          ]
+        },
+        "ok+ot": {
+          "k": 13,
+          "rate": 0.325,
+          "ci95": [
+            0.2008,
+            0.4798
+          ]
+        },
+        "mean_len": 6.375,
+        "qo_tokens": []
+      },
+      "La": {
+        "family": "OTHER",
+        "n": 7,
+        "types": 7,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.3543
+          ]
+        },
+        "ok": {
+          "k": 2,
+          "rate": 0.2857,
+          "ci95": [
+            0.0822,
+            0.6411
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.1429,
+          "ci95": [
+            0.0257,
+            0.5131
+          ]
+        },
+        "ok+ot": {
+          "k": 3,
+          "rate": 0.4286,
+          "ci95": [
+            0.1582,
+            0.7495
+          ]
+        },
+        "mean_len": 6.571,
+        "qo_tokens": []
+      },
+      "Lp": {
+        "family": "NAME",
+        "n": 4,
+        "types": 4,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.4899
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.4899
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.25,
+          "ci95": [
+            0.0456,
+            0.6994
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.25,
+          "ci95": [
+            0.0456,
+            0.6994
+          ]
+        },
+        "mean_len": 5.0,
+        "qo_tokens": []
+      },
+      "Lx": {
+        "family": "OTHER",
+        "n": 3,
+        "types": 3,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.5615
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.5615
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.3333,
+          "ci95": [
+            0.0615,
+            0.7923
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.3333,
+          "ci95": [
+            0.0615,
+            0.7923
+          ]
+        },
+        "mean_len": 6.333,
+        "qo_tokens": []
+      }
+    },
+    "by_family": {
+      "NAME": {
+        "ltypes": [
+          "Lf",
+          "Lc",
+          "Lp"
+        ],
+        "n": 260,
+        "n_page_matched": 257,
+        "n_pages_matched": 16,
+        "prefix": {
+          "n": 260,
+          "types": 238,
+          "qo": {
+            "k": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.0146
+            ]
+          },
+          "ok": {
+            "k": 34,
+            "rate": 0.1308,
+            "ci95": [
+              0.0951,
+              0.1772
+            ]
+          },
+          "ot": {
+            "k": 43,
+            "rate": 0.1654,
+            "ci95": [
+              0.1252,
+              0.2154
+            ]
+          },
+          "ok+ot": {
+            "k": 77,
+            "rate": 0.2962,
+            "ci95": [
+              0.244,
+              0.3543
+            ]
+          },
+          "mean_len": 5.646
+        },
+        "perm_vs_same_page_P": {
+          "pages": 16,
+          "n_l": 257,
+          "obs_qo": 0,
+          "obs_okot": 76,
+          "null_qo_mean": 28.82244,
+          "null_okot_mean": 35.46436,
+          "null_qo_min": 9,
+          "null_qo_max": 49,
+          "null_okot_min": 13,
+          "null_okot_max": 59,
+          "p_le_qo": 9.99990000099999e-06,
+          "p_ge_okot": 9.99990000099999e-06
+        },
+        "fisher_qo_vs_P": 1.2061926510019552e-15,
+        "fisher_okot_vs_P": 2.256145505298111e-15,
+        "qo_tokens": [],
+        "sect_mix": {
+          "H": 4,
+          "P": 256
+        }
+      },
+      "FIGURE": {
+        "ltypes": [
+          "Ln",
+          "Lt"
+        ],
+        "n": 123,
+        "n_page_matched": 123,
+        "n_pages_matched": 11,
+        "prefix": {
+          "n": 123,
+          "types": 110,
+          "qo": {
+            "k": 3,
+            "rate": 0.0244,
+            "ci95": [
+              0.0083,
+              0.0693
+            ]
+          },
+          "ok": {
+            "k": 26,
+            "rate": 0.2114,
+            "ci95": [
+              0.1485,
+              0.2917
+            ]
+          },
+          "ot": {
+            "k": 26,
+            "rate": 0.2114,
+            "ci95": [
+              0.1485,
+              0.2917
+            ]
+          },
+          "ok+ot": {
+            "k": 52,
+            "rate": 0.4228,
+            "ci95": [
+              0.3391,
+              0.5111
+            ]
+          },
+          "mean_len": 5.276
+        },
+        "perm_vs_same_page_P": {
+          "pages": 11,
+          "n_l": 123,
+          "obs_qo": 3,
+          "obs_okot": 52,
+          "null_qo_mean": 32.74003,
+          "null_okot_mean": 10.04557,
+          "null_qo_min": 14,
+          "null_qo_max": 53,
+          "null_okot_min": 0,
+          "null_okot_max": 27,
+          "p_le_qo": 9.99990000099999e-06,
+          "p_ge_okot": 9.99990000099999e-06
+        },
+        "fisher_qo_vs_P": 6.216729371206578e-06,
+        "fisher_okot_vs_P": 6.748930436815372e-16,
+        "qo_tokens": [
+          "qokal",
+          "qoted",
+          "qotedy"
+        ],
+        "sect_mix": {
+          "B": 123
+        }
+      },
+      "ZODIAC": {
+        "ltypes": [
+          "Lz"
+        ],
+        "n": 367,
+        "n_page_matched": 0,
+        "n_pages_matched": 0,
+        "prefix": {
+          "n": 367,
+          "types": 297,
+          "qo": {
+            "k": 1,
+            "rate": 0.0027,
+            "ci95": [
+              0.0005,
+              0.0153
+            ]
+          },
+          "ok": {
+            "k": 81,
+            "rate": 0.2207,
+            "ci95": [
+              0.1813,
+              0.2659
+            ]
+          },
+          "ot": {
+            "k": 81,
+            "rate": 0.2207,
+            "ci95": [
+              0.1813,
+              0.2659
+            ]
+          },
+          "ok+ot": {
+            "k": 162,
+            "rate": 0.4414,
+            "ci95": [
+              0.3915,
+              0.4926
+            ]
+          },
+          "mean_len": 5.379
+        },
+        "perm_vs_same_page_P": {
+          "pages": 0,
+          "n_l": 0,
+          "obs_qo": 0,
+          "obs_okot": 0,
+          "null_qo_mean": null,
+          "null_okot_mean": null,
+          "p_le_qo": 1.0,
+          "p_ge_okot": 1.0
+        },
+        "fisher_qo_vs_P": 1.9130320496365133e-15,
+        "fisher_okot_vs_P": 1.044803263426125e-15,
+        "qo_tokens": [
+          "qokeoly"
+        ],
+        "sect_mix": {
+          "Z": 367
+        }
+      },
+      "STARISH": {
+        "ltypes": [
+          "Ls"
+        ],
+        "n": 82,
+        "n_page_matched": 67,
+        "n_pages_matched": 3,
+        "prefix": {
+          "n": 82,
+          "types": 81,
+          "qo": {
+            "k": 1,
+            "rate": 0.0122,
+            "ci95": [
+              0.0022,
+              0.0659
+            ]
+          },
+          "ok": {
+            "k": 13,
+            "rate": 0.1585,
+            "ci95": [
+              0.0951,
+              0.2526
+            ]
+          },
+          "ot": {
+            "k": 18,
+            "rate": 0.2195,
+            "ci95": [
+              0.1436,
+              0.3205
+            ]
+          },
+          "ok+ot": {
+            "k": 31,
+            "rate": 0.378,
+            "ci95": [
+              0.2808,
+              0.4862
+            ]
+          },
+          "mean_len": 6.11
+        },
+        "perm_vs_same_page_P": {
+          "pages": 3,
+          "n_l": 67,
+          "obs_qo": 1,
+          "obs_okot": 26,
+          "null_qo_mean": 3.26305,
+          "null_okot_mean": 15.996,
+          "null_qo_min": 0,
+          "null_qo_max": 10,
+          "null_okot_min": 5,
+          "null_okot_max": 28,
+          "p_le_qo": 0.0979590204097959,
+          "p_ge_okot": 0.0001999980000199998
+        },
+        "fisher_qo_vs_P": 3.746278697100611e-05,
+        "fisher_okot_vs_P": 5.7988582533483e-10,
+        "qo_tokens": [
+          "qotoear"
+        ],
+        "sect_mix": {
+          "A": 82
+        }
+      },
+      "OTHER": {
+        "ltypes": [
+          "L0",
+          "La",
+          "Lx"
+        ],
+        "n": 206,
+        "n_page_matched": 185,
+        "n_pages_matched": 8,
+        "prefix": {
+          "n": 206,
+          "types": 135,
+          "qo": {
+            "k": 4,
+            "rate": 0.0194,
+            "ci95": [
+              0.0076,
+              0.0489
+            ]
+          },
+          "ok": {
+            "k": 12,
+            "rate": 0.0583,
+            "ci95": [
+              0.0336,
+              0.099
+            ]
+          },
+          "ot": {
+            "k": 9,
+            "rate": 0.0437,
+            "ci95": [
+              0.0232,
+              0.0809
+            ]
+          },
+          "ok+ot": {
+            "k": 21,
+            "rate": 0.1019,
+            "ci95": [
+              0.0676,
+              0.1508
+            ]
+          },
+          "mean_len": 3.728
+        },
+        "perm_vs_same_page_P": {
+          "pages": 8,
+          "n_l": 185,
+          "obs_qo": 4,
+          "obs_okot": 17,
+          "null_qo_mean": 13.93715,
+          "null_okot_mean": 18.26746,
+          "null_qo_min": 2,
+          "null_qo_max": 29,
+          "null_okot_min": 6,
+          "null_okot_max": 34,
+          "p_le_qo": 0.0005799942000579994,
+          "p_ge_okot": 0.6983830161698383
+        },
+        "fisher_qo_vs_P": 4.1622526781176626e-10,
+        "fisher_okot_vs_P": 0.6605461064018009,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ],
+        "sect_mix": {
+          "H": 20,
+          "C": 62,
+          "T": 59,
+          "A": 59,
+          "B": 6
+        }
+      }
+    },
+    "NAME_verdict": "STRICT_NULL",
+    "soft_ban_status": {
+      "corpus_L_qo_tokens": [
+        "qokal",
+        "qokeoly",
+        "qolsa",
+        "qor",
+        "qoted",
+        "qotedy",
+        "qotesy",
+        "qotoear"
+      ],
+      "non_NAME_qo_tokens": [
+        "qokal",
+        "qokeoly",
+        "qolsa",
+        "qor",
+        "qoted",
+        "qotedy",
+        "qotesy",
+        "qotoear"
+      ],
+      "NAME_qo_tokens": [],
+      "narrowing_supported": true
+    },
+    "n_perm": 100000,
+    "seed_base": 408
+  },
+  "ZL": {
+    "file": "ZL3b-n.txt",
+    "zl": true,
+    "calibration": {
+      "n_p": 32594,
+      "n_l": 1140,
+      "n_types_p": 8214,
+      "n_types_l": 867,
+      "P_prefix": {
+        "n": 32594,
+        "types": 8214,
+        "qo": {
+          "k": 5144,
+          "rate": 0.1578,
+          "ci95": [
+            0.1539,
+            0.1618
+          ]
+        },
+        "ok": {
+          "k": 2048,
+          "rate": 0.0628,
+          "ci95": [
+            0.0603,
+            0.0655
+          ]
+        },
+        "ot": {
+          "k": 1856,
+          "rate": 0.0569,
+          "ci95": [
+            0.0545,
+            0.0595
+          ]
+        },
+        "ok+ot": {
+          "k": 3904,
+          "rate": 0.1198,
+          "ci95": [
+            0.1163,
+            0.1233
+          ]
+        },
+        "mean_len": 5.388
+      }
+    },
+    "families_pre_registered": {
+      "NAME": [
+        "Lf",
+        "Lc",
+        "Lp"
+      ],
+      "FIGURE": [
+        "Ln",
+        "Lt"
+      ],
+      "ZODIAC": [
+        "Lz"
+      ],
+      "STARISH": [
+        "Ls"
+      ],
+      "OTHER": [
+        "L0",
+        "La",
+        "Lx"
+      ]
+    },
+    "by_ltype": {
+      "L0": {
+        "family": "OTHER",
+        "n": 342,
+        "types": 259,
+        "qo": {
+          "k": 5,
+          "rate": 0.0146,
+          "ci95": [
+            0.0063,
+            0.0338
+          ]
+        },
+        "ok": {
+          "k": 28,
+          "rate": 0.0819,
+          "ci95": [
+            0.0572,
+            0.1158
+          ]
+        },
+        "ot": {
+          "k": 35,
+          "rate": 0.1023,
+          "ci95": [
+            0.0745,
+            0.139
+          ]
+        },
+        "ok+ot": {
+          "k": 63,
+          "rate": 0.1842,
+          "ci95": [
+            0.1467,
+            0.2287
+          ]
+        },
+        "mean_len": 4.681,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "Lz": {
+        "family": "ZODIAC",
+        "n": 336,
+        "types": 280,
+        "qo": {
+          "k": 1,
+          "rate": 0.003,
+          "ci95": [
+            0.0005,
+            0.0167
+          ]
+        },
+        "ok": {
+          "k": 78,
+          "rate": 0.2321,
+          "ci95": [
+            0.1902,
+            0.2802
+          ]
+        },
+        "ot": {
+          "k": 85,
+          "rate": 0.253,
+          "ci95": [
+            0.2095,
+            0.3021
+          ]
+        },
+        "ok+ot": {
+          "k": 163,
+          "rate": 0.4851,
+          "ci95": [
+            0.4322,
+            0.5384
+          ]
+        },
+        "mean_len": 5.905,
+        "qo_tokens": [
+          "qokeoly"
+        ]
+      },
+      "Lf": {
+        "family": "NAME",
+        "n": 203,
+        "types": 191,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0186
+          ]
+        },
+        "ok": {
+          "k": 29,
+          "rate": 0.1429,
+          "ci95": [
+            0.1013,
+            0.1976
+          ]
+        },
+        "ot": {
+          "k": 34,
+          "rate": 0.1675,
+          "ci95": [
+            0.1224,
+            0.2249
+          ]
+        },
+        "ok+ot": {
+          "k": 63,
+          "rate": 0.3103,
+          "ci95": [
+            0.2507,
+            0.377
+          ]
+        },
+        "mean_len": 5.847,
+        "qo_tokens": []
+      },
+      "Ls": {
+        "family": "STARISH",
+        "n": 82,
+        "types": 82,
+        "qo": {
+          "k": 1,
+          "rate": 0.0122,
+          "ci95": [
+            0.0022,
+            0.0659
+          ]
+        },
+        "ok": {
+          "k": 14,
+          "rate": 0.1707,
+          "ci95": [
+            0.1045,
+            0.2664
+          ]
+        },
+        "ot": {
+          "k": 18,
+          "rate": 0.2195,
+          "ci95": [
+            0.1436,
+            0.3205
+          ]
+        },
+        "ok+ot": {
+          "k": 32,
+          "rate": 0.3902,
+          "ci95": [
+            0.2918,
+            0.4985
+          ]
+        },
+        "mean_len": 6.293,
+        "qo_tokens": [
+          "qotoear"
+        ]
+      },
+      "Ln": {
+        "family": "FIGURE",
+        "n": 64,
+        "types": 61,
+        "qo": {
+          "k": 2,
+          "rate": 0.0312,
+          "ci95": [
+            0.0086,
+            0.107
+          ]
+        },
+        "ok": {
+          "k": 17,
+          "rate": 0.2656,
+          "ci95": [
+            0.173,
+            0.3848
+          ]
+        },
+        "ot": {
+          "k": 8,
+          "rate": 0.125,
+          "ci95": [
+            0.0647,
+            0.2277
+          ]
+        },
+        "ok+ot": {
+          "k": 25,
+          "rate": 0.3906,
+          "ci95": [
+            0.2806,
+            0.5131
+          ]
+        },
+        "mean_len": 5.203,
+        "qo_tokens": [
+          "qokal",
+          "qoted"
+        ]
+      },
+      "Lt": {
+        "family": "FIGURE",
+        "n": 53,
+        "types": 51,
+        "qo": {
+          "k": 1,
+          "rate": 0.0189,
+          "ci95": [
+            0.0033,
+            0.0994
+          ]
+        },
+        "ok": {
+          "k": 11,
+          "rate": 0.2075,
+          "ci95": [
+            0.12,
+            0.3346
+          ]
+        },
+        "ot": {
+          "k": 15,
+          "rate": 0.283,
+          "ci95": [
+            0.1797,
+            0.4157
+          ]
+        },
+        "ok+ot": {
+          "k": 26,
+          "rate": 0.4906,
+          "ci95": [
+            0.3612,
+            0.6212
+          ]
+        },
+        "mean_len": 5.981,
+        "qo_tokens": [
+          "qotedy"
+        ]
+      },
+      "Lc": {
+        "family": "NAME",
+        "n": 40,
+        "types": 40,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "ok": {
+          "k": 10,
+          "rate": 0.25,
+          "ci95": [
+            0.1419,
+            0.4019
+          ]
+        },
+        "ot": {
+          "k": 5,
+          "rate": 0.125,
+          "ci95": [
+            0.0546,
+            0.2611
+          ]
+        },
+        "ok+ot": {
+          "k": 15,
+          "rate": 0.375,
+          "ci95": [
+            0.2422,
+            0.5297
+          ]
+        },
+        "mean_len": 7.0,
+        "qo_tokens": []
+      },
+      "La": {
+        "family": "OTHER",
+        "n": 9,
+        "types": 9,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.2992
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.3333,
+          "ci95": [
+            0.1206,
+            0.6458
+          ]
+        },
+        "ot": {
+          "k": 2,
+          "rate": 0.2222,
+          "ci95": [
+            0.0632,
+            0.5474
+          ]
+        },
+        "ok+ot": {
+          "k": 5,
+          "rate": 0.5556,
+          "ci95": [
+            0.2666,
+            0.8112
+          ]
+        },
+        "mean_len": 6.444,
+        "qo_tokens": []
+      },
+      "Lx": {
+        "family": "OTHER",
+        "n": 7,
+        "types": 7,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.3543
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.3543
+          ]
+        },
+        "ot": {
+          "k": 2,
+          "rate": 0.2857,
+          "ci95": [
+            0.0822,
+            0.6411
+          ]
+        },
+        "ok+ot": {
+          "k": 2,
+          "rate": 0.2857,
+          "ci95": [
+            0.0822,
+            0.6411
+          ]
+        },
+        "mean_len": 6.286,
+        "qo_tokens": []
+      },
+      "Lp": {
+        "family": "NAME",
+        "n": 4,
+        "types": 4,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.4899
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.4899
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.25,
+          "ci95": [
+            0.0456,
+            0.6994
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.25,
+          "ci95": [
+            0.0456,
+            0.6994
+          ]
+        },
+        "mean_len": 6.5,
+        "qo_tokens": []
+      }
+    },
+    "by_family": {
+      "NAME": {
+        "ltypes": [
+          "Lf",
+          "Lc",
+          "Lp"
+        ],
+        "n": 247,
+        "n_page_matched": 245,
+        "n_pages_matched": 17,
+        "prefix": {
+          "n": 247,
+          "types": 232,
+          "qo": {
+            "k": 0,
+            "rate": 0.0,
+            "ci95": [
+              -0.0,
+              0.0153
+            ]
+          },
+          "ok": {
+            "k": 39,
+            "rate": 0.1579,
+            "ci95": [
+              0.1177,
+              0.2086
+            ]
+          },
+          "ot": {
+            "k": 40,
+            "rate": 0.1619,
+            "ci95": [
+              0.1212,
+              0.213
+            ]
+          },
+          "ok+ot": {
+            "k": 79,
+            "rate": 0.3198,
+            "ci95": [
+              0.2648,
+              0.3804
+            ]
+          },
+          "mean_len": 6.045
+        },
+        "perm_vs_same_page_P": {
+          "pages": 17,
+          "n_l": 245,
+          "obs_qo": 0,
+          "obs_okot": 78,
+          "null_qo_mean": 29.43033,
+          "null_okot_mean": 35.85395,
+          "null_qo_min": 11,
+          "null_qo_max": 55,
+          "null_okot_min": 14,
+          "null_okot_max": 59,
+          "p_le_qo": 9.99990000099999e-06,
+          "p_ge_okot": 9.99990000099999e-06
+        },
+        "fisher_qo_vs_P": 1.5901321798729978e-15,
+        "fisher_okot_vs_P": 4.903120332148734e-16,
+        "qo_tokens": [],
+        "sect_mix": {
+          "H": 4,
+          "P": 243
+        }
+      },
+      "FIGURE": {
+        "ltypes": [
+          "Ln",
+          "Lt"
+        ],
+        "n": 117,
+        "n_page_matched": 117,
+        "n_pages_matched": 11,
+        "prefix": {
+          "n": 117,
+          "types": 108,
+          "qo": {
+            "k": 3,
+            "rate": 0.0256,
+            "ci95": [
+              0.0088,
+              0.0727
+            ]
+          },
+          "ok": {
+            "k": 28,
+            "rate": 0.2393,
+            "ci95": [
+              0.1711,
+              0.3241
+            ]
+          },
+          "ot": {
+            "k": 23,
+            "rate": 0.1966,
+            "ci95": [
+              0.1347,
+              0.2777
+            ]
+          },
+          "ok+ot": {
+            "k": 51,
+            "rate": 0.4359,
+            "ci95": [
+              0.3495,
+              0.5264
+            ]
+          },
+          "mean_len": 5.556
+        },
+        "perm_vs_same_page_P": {
+          "pages": 11,
+          "n_l": 117,
+          "obs_qo": 3,
+          "obs_okot": 51,
+          "null_qo_mean": 32.71488,
+          "null_okot_mean": 10.00987,
+          "null_qo_min": 13,
+          "null_qo_max": 56,
+          "null_okot_min": 0,
+          "null_okot_max": 25,
+          "p_le_qo": 9.99990000099999e-06,
+          "p_ge_okot": 9.99990000099999e-06
+        },
+        "fisher_qo_vs_P": 9.016642125677901e-06,
+        "fisher_okot_vs_P": 4.66707262890946e-16,
+        "qo_tokens": [
+          "qokal",
+          "qoted",
+          "qotedy"
+        ],
+        "sect_mix": {
+          "B": 117
+        }
+      },
+      "ZODIAC": {
+        "ltypes": [
+          "Lz"
+        ],
+        "n": 336,
+        "n_page_matched": 0,
+        "n_pages_matched": 0,
+        "prefix": {
+          "n": 336,
+          "types": 280,
+          "qo": {
+            "k": 1,
+            "rate": 0.003,
+            "ci95": [
+              0.0005,
+              0.0167
+            ]
+          },
+          "ok": {
+            "k": 78,
+            "rate": 0.2321,
+            "ci95": [
+              0.1902,
+              0.2802
+            ]
+          },
+          "ot": {
+            "k": 85,
+            "rate": 0.253,
+            "ci95": [
+              0.2095,
+              0.3021
+            ]
+          },
+          "ok+ot": {
+            "k": 163,
+            "rate": 0.4851,
+            "ci95": [
+              0.4322,
+              0.5384
+            ]
+          },
+          "mean_len": 5.905
+        },
+        "perm_vs_same_page_P": {
+          "pages": 0,
+          "n_l": 0,
+          "obs_qo": 0,
+          "obs_okot": 0,
+          "null_qo_mean": null,
+          "null_okot_mean": null,
+          "p_le_qo": 1.0,
+          "p_ge_okot": 1.0
+        },
+        "fisher_qo_vs_P": 2.2728524825071733e-15,
+        "fisher_okot_vs_P": 1.995759098560724e-15,
+        "qo_tokens": [
+          "qokeoly"
+        ],
+        "sect_mix": {
+          "Z": 336
+        }
+      },
+      "STARISH": {
+        "ltypes": [
+          "Ls"
+        ],
+        "n": 82,
+        "n_page_matched": 68,
+        "n_pages_matched": 3,
+        "prefix": {
+          "n": 82,
+          "types": 82,
+          "qo": {
+            "k": 1,
+            "rate": 0.0122,
+            "ci95": [
+              0.0022,
+              0.0659
+            ]
+          },
+          "ok": {
+            "k": 14,
+            "rate": 0.1707,
+            "ci95": [
+              0.1045,
+              0.2664
+            ]
+          },
+          "ot": {
+            "k": 18,
+            "rate": 0.2195,
+            "ci95": [
+              0.1436,
+              0.3205
+            ]
+          },
+          "ok+ot": {
+            "k": 32,
+            "rate": 0.3902,
+            "ci95": [
+              0.2918,
+              0.4985
+            ]
+          },
+          "mean_len": 6.293
+        },
+        "perm_vs_same_page_P": {
+          "pages": 3,
+          "n_l": 68,
+          "obs_qo": 1,
+          "obs_okot": 26,
+          "null_qo_mean": 3.3192,
+          "null_okot_mean": 16.12091,
+          "null_qo_min": 0,
+          "null_qo_max": 10,
+          "null_okot_min": 6,
+          "null_okot_max": 27,
+          "p_le_qo": 0.0926290737092629,
+          "p_ge_okot": 0.00018999810001899982
+        },
+        "fisher_qo_vs_P": 2.3433813012594802e-05,
+        "fisher_okot_vs_P": 4.393271991290419e-10,
+        "qo_tokens": [
+          "qotoear"
+        ],
+        "sect_mix": {
+          "A": 82
+        }
+      },
+      "OTHER": {
+        "ltypes": [
+          "L0",
+          "La",
+          "Lx"
+        ],
+        "n": 358,
+        "n_page_matched": 335,
+        "n_pages_matched": 12,
+        "prefix": {
+          "n": 358,
+          "types": 274,
+          "qo": {
+            "k": 5,
+            "rate": 0.014,
+            "ci95": [
+              0.006,
+              0.0323
+            ]
+          },
+          "ok": {
+            "k": 31,
+            "rate": 0.0866,
+            "ci95": [
+              0.0617,
+              0.1203
+            ]
+          },
+          "ot": {
+            "k": 39,
+            "rate": 0.1089,
+            "ci95": [
+              0.0807,
+              0.1455
+            ]
+          },
+          "ok+ot": {
+            "k": 70,
+            "rate": 0.1955,
+            "ci95": [
+              0.1578,
+              0.2398
+            ]
+          },
+          "mean_len": 4.757
+        },
+        "perm_vs_same_page_P": {
+          "pages": 12,
+          "n_l": 335,
+          "obs_qo": 5,
+          "obs_okot": 66,
+          "null_qo_mean": 18.95663,
+          "null_okot_mean": 64.46603,
+          "null_qo_min": 6,
+          "null_qo_max": 35,
+          "null_okot_min": 47,
+          "null_okot_max": 83,
+          "p_le_qo": 9.99990000099999e-06,
+          "p_ge_okot": 0.4002259977400226
+        },
+        "fisher_qo_vs_P": 8.586349927389425e-16,
+        "fisher_okot_vs_P": 4.028645864724756e-05,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ],
+        "sect_mix": {
+          "H": 26,
+          "C": 204,
+          "T": 60,
+          "A": 62,
+          "B": 6
+        }
+      }
+    },
+    "NAME_verdict": "STRICT_NULL",
+    "soft_ban_status": {
+      "corpus_L_qo_tokens": [
+        "qokal",
+        "qokeoly",
+        "qolsa",
+        "qor",
+        "qoted",
+        "qotedy",
+        "qotesy",
+        "qotoear"
+      ],
+      "non_NAME_qo_tokens": [
+        "qokal",
+        "qokeoly",
+        "qolsa",
+        "qor",
+        "qoted",
+        "qotedy",
+        "qotesy",
+        "qotoear"
+      ],
+      "NAME_qo_tokens": [],
+      "narrowing_supported": true
+    },
+    "n_perm": 100000,
+    "seed_base": 408
+  },
+  "compound_NAME_verdict": "STRICT_NULL",
+  "compound_narrowing_supported": true
+}

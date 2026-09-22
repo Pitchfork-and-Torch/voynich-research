@@ -1,0 +1,1186 @@
+{
+  "IT": {
+    "file": "IT2a-n.txt",
+    "zl": false,
+    "calibration": {
+      "n_p_corpus": 34486,
+      "n_l_corpus": 1038,
+      "n_pages_both": 36,
+      "sect_T_pages_all": [
+        "f1r",
+        "f66r",
+        "f76r",
+        "f85r1",
+        "f86v5",
+        "f86v6"
+      ],
+      "sect_T_L_raw_page_matched": {
+        "n": 59,
+        "types": 33,
+        "qo": {
+          "k": 4,
+          "rate": 0.0678,
+          "ci95": [
+            0.0267,
+            0.1618
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0611
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0169,
+          "ci95": [
+            0.003,
+            0.09
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0169,
+          "ci95": [
+            0.003,
+            0.09
+          ]
+        },
+        "mean_len": 2.237
+      },
+      "sect_T_P_raw_page_matched": {
+        "n": 844,
+        "types": 422,
+        "qo": {
+          "k": 153,
+          "rate": 0.1813,
+          "ci95": [
+            0.1568,
+            0.2087
+          ]
+        },
+        "ok": {
+          "k": 55,
+          "rate": 0.0652,
+          "ci95": [
+            0.0504,
+            0.0839
+          ]
+        },
+        "ot": {
+          "k": 31,
+          "rate": 0.0367,
+          "ci95": [
+            0.026,
+            0.0517
+          ]
+        },
+        "ok+ot": {
+          "k": 86,
+          "rate": 0.1019,
+          "ci95": [
+            0.0833,
+            0.1241
+          ]
+        },
+        "mean_len": 5.062
+      },
+      "sect_T_n_pages_with_L": 2,
+      "sect_T_pages_with_L": [
+        "f66r",
+        "f76r"
+      ],
+      "sect_T_ltypes_raw": {
+        "L0": 56,
+        "Lx": 3
+      },
+      "sect_T_len_hist_raw": {
+        "4": 7,
+        "3": 2,
+        "5": 7,
+        "6": 2,
+        "1": 38,
+        "2": 2,
+        "9": 1
+      },
+      "note": "Section T remains secondary; pages < 5. Not load-bearing."
+    },
+    "pre_registered": {
+      "section": "T",
+      "min_len_primary": 3,
+      "min_len_sensitivity": 4,
+      "min_n_filtered": 10,
+      "load_bearing": false,
+      "decision_rule": {
+        "TINY_HIT": "qo>=5% AND ok+ot<=18% after len>=3",
+        "TINY_NULL": "qo<=3% AND ok+ot>=22% after len>=3",
+        "TINY_UNDERPOWERED": "n_filtered < 10",
+        "TINY_PARTIAL": "else"
+      }
+    },
+    "short_discarded": {
+      "n": 40,
+      "tokens": [
+        "y",
+        "o",
+        "s",
+        "sh",
+        "y",
+        "d",
+        "o",
+        "f",
+        "x",
+        "d",
+        "sh",
+        "y",
+        "f",
+        "f",
+        "y",
+        "o",
+        "d",
+        "r",
+        "f",
+        "c",
+        "r",
+        "x",
+        "t",
+        "o",
+        "l",
+        "r",
+        "t",
+        "o",
+        "x",
+        "p",
+        "d",
+        "s",
+        "d",
+        "q",
+        "s",
+        "o",
+        "l",
+        "k",
+        "r",
+        "s"
+      ],
+      "pages": {
+        "f66r": 31,
+        "f76r": 9
+      },
+      "L": {
+        "n": 40,
+        "types": 14,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "ok+ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0876
+          ]
+        },
+        "mean_len": 1.05
+      }
+    },
+    "primary_len_ge_3": {
+      "min_len": 3,
+      "n_l_raw_page_matched": 59,
+      "n_l_filtered": 19,
+      "n_p_same_pages_filtered": 791,
+      "n_pages": 1,
+      "pages": [
+        "f66r"
+      ],
+      "ltypes": {
+        "L0": 16,
+        "Lx": 3
+      },
+      "pos": {
+        "sole": 16,
+        "initial": 1,
+        "medial": 1,
+        "final": 1
+      },
+      "mean_len": 4.737,
+      "qo_tokens": [
+        "qor",
+        "qotesy",
+        "qokal",
+        "qolsa"
+      ],
+      "okot_tokens": [
+        "otcheo"
+      ],
+      "all_l_tokens": [
+        "rary",
+        "rals",
+        "qor",
+        "dara",
+        "ykcol",
+        "syly",
+        "salf",
+        "fary",
+        "qotesy",
+        "ykaly",
+        "daoly",
+        "raiin",
+        "qokal",
+        "qolsa",
+        "raral",
+        "air",
+        "otcheo",
+        "chty",
+        "ykchscheg"
+      ],
+      "L": {
+        "n": 19,
+        "types": 19,
+        "qo": {
+          "k": 4,
+          "rate": 0.2105,
+          "ci95": [
+            0.0851,
+            0.4333
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1682
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0526,
+          "ci95": [
+            0.0094,
+            0.2464
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0526,
+          "ci95": [
+            0.0094,
+            0.2464
+          ]
+        },
+        "mean_len": 4.737
+      },
+      "P_descriptive": {
+        "n": 791,
+        "types": 409,
+        "qo": {
+          "k": 148,
+          "rate": 0.1871,
+          "ci95": [
+            0.1615,
+            0.2158
+          ]
+        },
+        "ok": {
+          "k": 55,
+          "rate": 0.0695,
+          "ci95": [
+            0.0538,
+            0.0894
+          ]
+        },
+        "ot": {
+          "k": 31,
+          "rate": 0.0392,
+          "ci95": [
+            0.0277,
+            0.0551
+          ]
+        },
+        "ok+ot": {
+          "k": 86,
+          "rate": 0.1087,
+          "ci95": [
+            0.0889,
+            0.1323
+          ]
+        },
+        "mean_len": 5.273
+      },
+      "by_page": {
+        "f66r": {
+          "n": 19,
+          "tokens": [
+            "rary",
+            "rals",
+            "qor",
+            "dara",
+            "ykcol",
+            "syly",
+            "salf",
+            "fary",
+            "qotesy",
+            "ykaly",
+            "daoly",
+            "raiin",
+            "qokal",
+            "qolsa",
+            "raral",
+            "air",
+            "otcheo",
+            "chty",
+            "ykchscheg"
+          ],
+          "ltypes": {
+            "L0": 16,
+            "Lx": 3
+          },
+          "L": {
+            "n": 19,
+            "types": 19,
+            "qo": {
+              "k": 4,
+              "rate": 0.2105,
+              "ci95": [
+                0.0851,
+                0.4333
+              ]
+            },
+            "ok": {
+              "k": 0,
+              "rate": 0.0,
+              "ci95": [
+                0.0,
+                0.1682
+              ]
+            },
+            "ot": {
+              "k": 1,
+              "rate": 0.0526,
+              "ci95": [
+                0.0094,
+                0.2464
+              ]
+            },
+            "ok+ot": {
+              "k": 1,
+              "rate": 0.0526,
+              "ci95": [
+                0.0094,
+                0.2464
+              ]
+            },
+            "mean_len": 4.737
+          }
+        }
+      },
+      "verdict": "TINY_HIT"
+    },
+    "sensitivity_len_ge_4": {
+      "min_len": 4,
+      "n_l_raw_page_matched": 59,
+      "n_l_filtered": 17,
+      "n_p_same_pages_filtered": 711,
+      "n_pages": 1,
+      "pages": [
+        "f66r"
+      ],
+      "ltypes": {
+        "L0": 14,
+        "Lx": 3
+      },
+      "pos": {
+        "sole": 14,
+        "initial": 1,
+        "medial": 1,
+        "final": 1
+      },
+      "mean_len": 4.941,
+      "qo_tokens": [
+        "qotesy",
+        "qokal",
+        "qolsa"
+      ],
+      "okot_tokens": [
+        "otcheo"
+      ],
+      "all_l_tokens": [
+        "rary",
+        "rals",
+        "dara",
+        "ykcol",
+        "syly",
+        "salf",
+        "fary",
+        "qotesy",
+        "ykaly",
+        "daoly",
+        "raiin",
+        "qokal",
+        "qolsa",
+        "raral",
+        "otcheo",
+        "chty",
+        "ykchscheg"
+      ],
+      "L": {
+        "n": 17,
+        "types": 17,
+        "qo": {
+          "k": 3,
+          "rate": 0.1765,
+          "ci95": [
+            0.0619,
+            0.4103
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1843
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0588,
+          "ci95": [
+            0.0105,
+            0.2698
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0588,
+          "ci95": [
+            0.0105,
+            0.2698
+          ]
+        },
+        "mean_len": 4.941
+      },
+      "P_descriptive": {
+        "n": 711,
+        "types": 382,
+        "qo": {
+          "k": 143,
+          "rate": 0.2011,
+          "ci95": [
+            0.1733,
+            0.2322
+          ]
+        },
+        "ok": {
+          "k": 51,
+          "rate": 0.0717,
+          "ci95": [
+            0.055,
+            0.0931
+          ]
+        },
+        "ot": {
+          "k": 28,
+          "rate": 0.0394,
+          "ci95": [
+            0.0274,
+            0.0563
+          ]
+        },
+        "ok+ot": {
+          "k": 79,
+          "rate": 0.1111,
+          "ci95": [
+            0.0901,
+            0.1363
+          ]
+        },
+        "mean_len": 5.529
+      },
+      "by_page": {
+        "f66r": {
+          "n": 17,
+          "tokens": [
+            "rary",
+            "rals",
+            "dara",
+            "ykcol",
+            "syly",
+            "salf",
+            "fary",
+            "qotesy",
+            "ykaly",
+            "daoly",
+            "raiin",
+            "qokal",
+            "qolsa",
+            "raral",
+            "otcheo",
+            "chty",
+            "ykchscheg"
+          ],
+          "ltypes": {
+            "L0": 14,
+            "Lx": 3
+          },
+          "L": {
+            "n": 17,
+            "types": 17,
+            "qo": {
+              "k": 3,
+              "rate": 0.1765,
+              "ci95": [
+                0.0619,
+                0.4103
+              ]
+            },
+            "ok": {
+              "k": 0,
+              "rate": 0.0,
+              "ci95": [
+                0.0,
+                0.1843
+              ]
+            },
+            "ot": {
+              "k": 1,
+              "rate": 0.0588,
+              "ci95": [
+                0.0105,
+                0.2698
+              ]
+            },
+            "ok+ot": {
+              "k": 1,
+              "rate": 0.0588,
+              "ci95": [
+                0.0105,
+                0.2698
+              ]
+            },
+            "mean_len": 4.941
+          }
+        }
+      },
+      "verdict": "TINY_HIT"
+    },
+    "overall_verdict": "TINY_HIT"
+  },
+  "ZL": {
+    "file": "ZL3b-n.txt",
+    "zl": true,
+    "calibration": {
+      "n_p_corpus": 32594,
+      "n_l_corpus": 1140,
+      "n_pages_both": 40,
+      "sect_T_pages_all": [
+        "f116v",
+        "f1r",
+        "f66r",
+        "f76r",
+        "f85r1",
+        "f86v5",
+        "f86v6"
+      ],
+      "sect_T_L_raw_page_matched": {
+        "n": 58,
+        "types": 33,
+        "qo": {
+          "k": 4,
+          "rate": 0.069,
+          "ci95": [
+            0.0271,
+            0.1643
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0621
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0172,
+          "ci95": [
+            0.003,
+            0.0914
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0172,
+          "ci95": [
+            0.003,
+            0.0914
+          ]
+        },
+        "mean_len": 2.328
+      },
+      "sect_T_P_raw_page_matched": {
+        "n": 781,
+        "types": 430,
+        "qo": {
+          "k": 148,
+          "rate": 0.1895,
+          "ci95": [
+            0.1636,
+            0.2185
+          ]
+        },
+        "ok": {
+          "k": 54,
+          "rate": 0.0691,
+          "ci95": [
+            0.0534,
+            0.0891
+          ]
+        },
+        "ot": {
+          "k": 31,
+          "rate": 0.0397,
+          "ci95": [
+            0.0281,
+            0.0558
+          ]
+        },
+        "ok+ot": {
+          "k": 85,
+          "rate": 0.1088,
+          "ci95": [
+            0.0889,
+            0.1326
+          ]
+        },
+        "mean_len": 5.465
+      },
+      "sect_T_n_pages_with_L": 2,
+      "sect_T_pages_with_L": [
+        "f66r",
+        "f76r"
+      ],
+      "sect_T_ltypes_raw": {
+        "L0": 55,
+        "Lx": 3
+      },
+      "sect_T_len_hist_raw": {
+        "4": 8,
+        "3": 2,
+        "5": 6,
+        "6": 1,
+        "1": 37,
+        "2": 2,
+        "11": 1,
+        "9": 1
+      },
+      "note": "Section T remains secondary; pages < 5. Not load-bearing."
+    },
+    "pre_registered": {
+      "section": "T",
+      "min_len_primary": 3,
+      "min_len_sensitivity": 4,
+      "min_n_filtered": 10,
+      "load_bearing": false,
+      "decision_rule": {
+        "TINY_HIT": "qo>=5% AND ok+ot<=18% after len>=3",
+        "TINY_NULL": "qo<=3% AND ok+ot>=22% after len>=3",
+        "TINY_UNDERPOWERED": "n_filtered < 10",
+        "TINY_PARTIAL": "else"
+      }
+    },
+    "short_discarded": {
+      "n": 39,
+      "tokens": [
+        "y",
+        "o",
+        "s",
+        "sh",
+        "y",
+        "d",
+        "o",
+        "f",
+        "x",
+        "d",
+        "sh",
+        "y",
+        "f",
+        "f",
+        "y",
+        "o",
+        "d",
+        "s",
+        "f",
+        "c",
+        "x",
+        "t",
+        "o",
+        "l",
+        "r",
+        "t",
+        "o",
+        "x",
+        "p",
+        "d",
+        "s",
+        "d",
+        "q",
+        "s",
+        "o",
+        "l",
+        "k",
+        "r",
+        "s"
+      ],
+      "pages": {
+        "f66r": 30,
+        "f76r": 9
+      },
+      "L": {
+        "n": 39,
+        "types": 14,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0897
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0897
+          ]
+        },
+        "ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0897
+          ]
+        },
+        "ok+ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0897
+          ]
+        },
+        "mean_len": 1.051
+      }
+    },
+    "primary_len_ge_3": {
+      "min_len": 3,
+      "n_l_raw_page_matched": 58,
+      "n_l_filtered": 19,
+      "n_p_same_pages_filtered": 748,
+      "n_pages": 1,
+      "pages": [
+        "f66r"
+      ],
+      "ltypes": {
+        "L0": 16,
+        "Lx": 3
+      },
+      "pos": {
+        "sole": 16,
+        "initial": 1,
+        "medial": 1,
+        "final": 1
+      },
+      "mean_len": 4.947,
+      "qo_tokens": [
+        "qor",
+        "qotesy",
+        "qokal",
+        "qolsa"
+      ],
+      "okot_tokens": [
+        "otcheodaiin"
+      ],
+      "all_l_tokens": [
+        "rary",
+        "rals",
+        "qor",
+        "dary",
+        "ykeol",
+        "saly",
+        "salf",
+        "fary",
+        "qotesy",
+        "ykaly",
+        "doly",
+        "saiin",
+        "qokal",
+        "qolsa",
+        "raral",
+        "air",
+        "otcheodaiin",
+        "chty",
+        "ykeescheg"
+      ],
+      "L": {
+        "n": 19,
+        "types": 19,
+        "qo": {
+          "k": 4,
+          "rate": 0.2105,
+          "ci95": [
+            0.0851,
+            0.4333
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1682
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0526,
+          "ci95": [
+            0.0094,
+            0.2464
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0526,
+          "ci95": [
+            0.0094,
+            0.2464
+          ]
+        },
+        "mean_len": 4.947
+      },
+      "P_descriptive": {
+        "n": 748,
+        "types": 418,
+        "qo": {
+          "k": 144,
+          "rate": 0.1925,
+          "ci95": [
+            0.1659,
+            0.2223
+          ]
+        },
+        "ok": {
+          "k": 54,
+          "rate": 0.0722,
+          "ci95": [
+            0.0557,
+            0.093
+          ]
+        },
+        "ot": {
+          "k": 30,
+          "rate": 0.0401,
+          "ci95": [
+            0.0282,
+            0.0567
+          ]
+        },
+        "ok+ot": {
+          "k": 84,
+          "rate": 0.1123,
+          "ci95": [
+            0.0916,
+            0.1369
+          ]
+        },
+        "mean_len": 5.62
+      },
+      "by_page": {
+        "f66r": {
+          "n": 19,
+          "tokens": [
+            "rary",
+            "rals",
+            "qor",
+            "dary",
+            "ykeol",
+            "saly",
+            "salf",
+            "fary",
+            "qotesy",
+            "ykaly",
+            "doly",
+            "saiin",
+            "qokal",
+            "qolsa",
+            "raral",
+            "air",
+            "otcheodaiin",
+            "chty",
+            "ykeescheg"
+          ],
+          "ltypes": {
+            "L0": 16,
+            "Lx": 3
+          },
+          "L": {
+            "n": 19,
+            "types": 19,
+            "qo": {
+              "k": 4,
+              "rate": 0.2105,
+              "ci95": [
+                0.0851,
+                0.4333
+              ]
+            },
+            "ok": {
+              "k": 0,
+              "rate": 0.0,
+              "ci95": [
+                0.0,
+                0.1682
+              ]
+            },
+            "ot": {
+              "k": 1,
+              "rate": 0.0526,
+              "ci95": [
+                0.0094,
+                0.2464
+              ]
+            },
+            "ok+ot": {
+              "k": 1,
+              "rate": 0.0526,
+              "ci95": [
+                0.0094,
+                0.2464
+              ]
+            },
+            "mean_len": 4.947
+          }
+        }
+      },
+      "verdict": "TINY_HIT"
+    },
+    "sensitivity_len_ge_4": {
+      "min_len": 4,
+      "n_l_raw_page_matched": 58,
+      "n_l_filtered": 17,
+      "n_p_same_pages_filtered": 692,
+      "n_pages": 1,
+      "pages": [
+        "f66r"
+      ],
+      "ltypes": {
+        "L0": 14,
+        "Lx": 3
+      },
+      "pos": {
+        "sole": 14,
+        "initial": 1,
+        "medial": 1,
+        "final": 1
+      },
+      "mean_len": 5.176,
+      "qo_tokens": [
+        "qotesy",
+        "qokal",
+        "qolsa"
+      ],
+      "okot_tokens": [
+        "otcheodaiin"
+      ],
+      "all_l_tokens": [
+        "rary",
+        "rals",
+        "dary",
+        "ykeol",
+        "saly",
+        "salf",
+        "fary",
+        "qotesy",
+        "ykaly",
+        "doly",
+        "saiin",
+        "qokal",
+        "qolsa",
+        "raral",
+        "otcheodaiin",
+        "chty",
+        "ykeescheg"
+      ],
+      "L": {
+        "n": 17,
+        "types": 17,
+        "qo": {
+          "k": 3,
+          "rate": 0.1765,
+          "ci95": [
+            0.0619,
+            0.4103
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1843
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0588,
+          "ci95": [
+            0.0105,
+            0.2698
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0588,
+          "ci95": [
+            0.0105,
+            0.2698
+          ]
+        },
+        "mean_len": 5.176
+      },
+      "P_descriptive": {
+        "n": 692,
+        "types": 397,
+        "qo": {
+          "k": 141,
+          "rate": 0.2038,
+          "ci95": [
+            0.1754,
+            0.2354
+          ]
+        },
+        "ok": {
+          "k": 50,
+          "rate": 0.0723,
+          "ci95": [
+            0.0552,
+            0.094
+          ]
+        },
+        "ot": {
+          "k": 28,
+          "rate": 0.0405,
+          "ci95": [
+            0.0281,
+            0.0579
+          ]
+        },
+        "ok+ot": {
+          "k": 78,
+          "rate": 0.1127,
+          "ci95": [
+            0.0913,
+            0.1384
+          ]
+        },
+        "mean_len": 5.832
+      },
+      "by_page": {
+        "f66r": {
+          "n": 17,
+          "tokens": [
+            "rary",
+            "rals",
+            "dary",
+            "ykeol",
+            "saly",
+            "salf",
+            "fary",
+            "qotesy",
+            "ykaly",
+            "doly",
+            "saiin",
+            "qokal",
+            "qolsa",
+            "raral",
+            "otcheodaiin",
+            "chty",
+            "ykeescheg"
+          ],
+          "ltypes": {
+            "L0": 14,
+            "Lx": 3
+          },
+          "L": {
+            "n": 17,
+            "types": 17,
+            "qo": {
+              "k": 3,
+              "rate": 0.1765,
+              "ci95": [
+                0.0619,
+                0.4103
+              ]
+            },
+            "ok": {
+              "k": 0,
+              "rate": 0.0,
+              "ci95": [
+                0.0,
+                0.1843
+              ]
+            },
+            "ot": {
+              "k": 1,
+              "rate": 0.0588,
+              "ci95": [
+                0.0105,
+                0.2698
+              ]
+            },
+            "ok+ot": {
+              "k": 1,
+              "rate": 0.0588,
+              "ci95": [
+                0.0105,
+                0.2698
+              ]
+            },
+            "mean_len": 5.176
+          }
+        }
+      },
+      "verdict": "TINY_HIT"
+    },
+    "overall_verdict": "TINY_HIT"
+  },
+  "compound_verdict": "TINY_HIT"
+}

@@ -1,0 +1,559 @@
+{
+  "IT": {
+    "file": "IT2a-n.txt",
+    "zl": false,
+    "has_fRos_page": false,
+    "fRos_inventory": null,
+    "pre_registered": {
+      "zl_only_page": "fRos",
+      "min_len": 3,
+      "min_n": 30,
+      "g8_rule_reused": true,
+      "decision_rule": {
+        "TAGGING_EXPLAINS_DISAGREE": "IT unchanged STILL_WOUNDED; ZL flips from LENGTH_EXPLAINS to STILL_WOUNDED after excluding fRos",
+        "DISAGREE_REMAINS": "ZL still not STILL_WOUNDED after exclusion",
+        "VOID": "IT lacks fRos and ZL lacks fRos (nothing to test)"
+      }
+    },
+    "baseline_all_pages": {
+      "exclude_pages": [],
+      "L0_sole_wordlike": {
+        "n": 48,
+        "types": 48,
+        "qo": {
+          "k": 4,
+          "rate": 0.0833,
+          "ci95": [
+            0.0329,
+            0.1955
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.125,
+          "ci95": [
+            0.0586,
+            0.247
+          ]
+        },
+        "mean_len": 6.292,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "NAME_sole_wordlike": {
+        "n": 211,
+        "types": 200,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0179
+          ]
+        },
+        "ok": {
+          "k": 31,
+          "rate": 0.1469,
+          "ci95": [
+            0.1055,
+            0.201
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1706,
+          "ci95": [
+            0.1259,
+            0.2272
+          ]
+        },
+        "ok+ot": {
+          "k": 67,
+          "rate": 0.3175,
+          "ci95": [
+            0.2585,
+            0.3831
+          ]
+        },
+        "mean_len": 6.005,
+        "qo_tokens": []
+      },
+      "fisher_L0_vs_NAME": {
+        "ok+ot": 0.00729680193404727,
+        "qo": 0.0010622258891646278
+      },
+      "l0_pages": [
+        [
+          "f66r",
+          16
+        ],
+        [
+          "f67r2",
+          14
+        ],
+        [
+          "f67v1",
+          9
+        ],
+        [
+          "f57v",
+          5
+        ],
+        [
+          "f68v3",
+          2
+        ],
+        [
+          "f69r",
+          2
+        ]
+      ],
+      "verdict": "STILL_WOUNDED"
+    },
+    "exclude_fRos": {
+      "exclude_pages": [
+        "fRos"
+      ],
+      "L0_sole_wordlike": {
+        "n": 48,
+        "types": 48,
+        "qo": {
+          "k": 4,
+          "rate": 0.0833,
+          "ci95": [
+            0.0329,
+            0.1955
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.125,
+          "ci95": [
+            0.0586,
+            0.247
+          ]
+        },
+        "mean_len": 6.292,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "NAME_sole_wordlike": {
+        "n": 211,
+        "types": 200,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0179
+          ]
+        },
+        "ok": {
+          "k": 31,
+          "rate": 0.1469,
+          "ci95": [
+            0.1055,
+            0.201
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1706,
+          "ci95": [
+            0.1259,
+            0.2272
+          ]
+        },
+        "ok+ot": {
+          "k": 67,
+          "rate": 0.3175,
+          "ci95": [
+            0.2585,
+            0.3831
+          ]
+        },
+        "mean_len": 6.005,
+        "qo_tokens": []
+      },
+      "fisher_L0_vs_NAME": {
+        "ok+ot": 0.00729680193404727,
+        "qo": 0.0010622258891646278
+      },
+      "l0_pages": [
+        [
+          "f66r",
+          16
+        ],
+        [
+          "f67r2",
+          14
+        ],
+        [
+          "f67v1",
+          9
+        ],
+        [
+          "f57v",
+          5
+        ],
+        [
+          "f68v3",
+          2
+        ],
+        [
+          "f69r",
+          2
+        ]
+      ],
+      "verdict": "STILL_WOUNDED"
+    }
+  },
+  "ZL": {
+    "file": "ZL3b-n.txt",
+    "zl": true,
+    "has_fRos_page": true,
+    "fRos_inventory": {
+      "n_tokens": 184,
+      "bands": {
+        "L": 148,
+        "P": 36
+      },
+      "ltypes": {
+        "L0": 148,
+        "Pb": 36
+      },
+      "sect": {
+        "C": 184
+      },
+      "L0_sole_wordlike": {
+        "n": 126,
+        "types": 117,
+        "qo": {
+          "k": 1,
+          "rate": 0.0079,
+          "ci95": [
+            0.0014,
+            0.0436
+          ]
+        },
+        "ok": {
+          "k": 16,
+          "rate": 0.127,
+          "ci95": [
+            0.0797,
+            0.1963
+          ]
+        },
+        "ot": {
+          "k": 22,
+          "rate": 0.1746,
+          "ci95": [
+            0.1182,
+            0.2502
+          ]
+        },
+        "ok+ot": {
+          "k": 38,
+          "rate": 0.3016,
+          "ci95": [
+            0.2283,
+            0.3866
+          ]
+        },
+        "mean_len": 6.056,
+        "qo_tokens": [
+          "qokal"
+        ]
+      },
+      "note": "ZL aggregate rosette page; absent from IT page list."
+    },
+    "pre_registered": {
+      "zl_only_page": "fRos",
+      "min_len": 3,
+      "min_n": 30,
+      "g8_rule_reused": true,
+      "decision_rule": {
+        "TAGGING_EXPLAINS_DISAGREE": "IT unchanged STILL_WOUNDED; ZL flips from LENGTH_EXPLAINS to STILL_WOUNDED after excluding fRos",
+        "DISAGREE_REMAINS": "ZL still not STILL_WOUNDED after exclusion",
+        "VOID": "IT lacks fRos and ZL lacks fRos (nothing to test)"
+      }
+    },
+    "baseline_all_pages": {
+      "exclude_pages": [],
+      "L0_sole_wordlike": {
+        "n": 174,
+        "types": 164,
+        "qo": {
+          "k": 5,
+          "rate": 0.0287,
+          "ci95": [
+            0.0123,
+            0.0655
+          ]
+        },
+        "ok": {
+          "k": 18,
+          "rate": 0.1034,
+          "ci95": [
+            0.0664,
+            0.1576
+          ]
+        },
+        "ot": {
+          "k": 25,
+          "rate": 0.1437,
+          "ci95": [
+            0.0993,
+            0.2035
+          ]
+        },
+        "ok+ot": {
+          "k": 43,
+          "rate": 0.2471,
+          "ci95": [
+            0.189,
+            0.3162
+          ]
+        },
+        "mean_len": 6.138,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "NAME_sole_wordlike": {
+        "n": 227,
+        "types": 215,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0166
+          ]
+        },
+        "ok": {
+          "k": 38,
+          "rate": 0.1674,
+          "ci95": [
+            0.1245,
+            0.2214
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1586,
+          "ci95": [
+            0.1168,
+            0.2117
+          ]
+        },
+        "ok+ot": {
+          "k": 74,
+          "rate": 0.326,
+          "ci95": [
+            0.2683,
+            0.3894
+          ]
+        },
+        "mean_len": 6.176,
+        "qo_tokens": []
+      },
+      "fisher_L0_vs_NAME": {
+        "ok+ot": 0.09664246215497299,
+        "qo": 0.014883942775601173
+      },
+      "l0_pages": [
+        [
+          "fRos",
+          126
+        ],
+        [
+          "f66r",
+          16
+        ],
+        [
+          "f67r2",
+          13
+        ],
+        [
+          "f67v1",
+          9
+        ],
+        [
+          "f57v",
+          5
+        ],
+        [
+          "f69r",
+          3
+        ],
+        [
+          "f68v3",
+          2
+        ]
+      ],
+      "verdict": "LENGTH_EXPLAINS"
+    },
+    "exclude_fRos": {
+      "exclude_pages": [
+        "fRos"
+      ],
+      "L0_sole_wordlike": {
+        "n": 48,
+        "types": 48,
+        "qo": {
+          "k": 4,
+          "rate": 0.0833,
+          "ci95": [
+            0.0329,
+            0.1955
+          ]
+        },
+        "ok": {
+          "k": 2,
+          "rate": 0.0417,
+          "ci95": [
+            0.0115,
+            0.1398
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ok+ot": {
+          "k": 5,
+          "rate": 0.1042,
+          "ci95": [
+            0.0453,
+            0.2217
+          ]
+        },
+        "mean_len": 6.354,
+        "qo_tokens": [
+          "qokal",
+          "qolsa",
+          "qor",
+          "qotesy"
+        ]
+      },
+      "NAME_sole_wordlike": {
+        "n": 227,
+        "types": 215,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0166
+          ]
+        },
+        "ok": {
+          "k": 38,
+          "rate": 0.1674,
+          "ci95": [
+            0.1245,
+            0.2214
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1586,
+          "ci95": [
+            0.1168,
+            0.2117
+          ]
+        },
+        "ok+ot": {
+          "k": 74,
+          "rate": 0.326,
+          "ci95": [
+            0.2683,
+            0.3894
+          ]
+        },
+        "mean_len": 6.176,
+        "qo_tokens": []
+      },
+      "fisher_L0_vs_NAME": {
+        "ok+ot": 0.0014485075250130163,
+        "qo": 0.0008346312339442438
+      },
+      "l0_pages": [
+        [
+          "f66r",
+          16
+        ],
+        [
+          "f67r2",
+          13
+        ],
+        [
+          "f67v1",
+          9
+        ],
+        [
+          "f57v",
+          5
+        ],
+        [
+          "f69r",
+          3
+        ],
+        [
+          "f68v3",
+          2
+        ]
+      ],
+      "verdict": "STILL_WOUNDED"
+    }
+  },
+  "compound_verdict": "TAGGING_EXPLAINS_DISAGREE"
+}
