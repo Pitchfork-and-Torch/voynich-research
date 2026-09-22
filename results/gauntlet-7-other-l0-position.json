@@ -1,0 +1,1210 @@
+{
+  "IT": {
+    "file": "IT2a-n.txt",
+    "zl": false,
+    "calibration": {
+      "n_l": 1038,
+      "n_other": 206,
+      "n_l0": 196,
+      "n_name": 260,
+      "other_ltypes": {
+        "L0": 196,
+        "Lx": 3,
+        "La": 7
+      },
+      "l0_sects": {
+        "H": 20,
+        "C": 56,
+        "T": 56,
+        "A": 58,
+        "B": 6
+      },
+      "l0_pos": {
+        "sole": 120,
+        "initial": 30,
+        "final": 30,
+        "medial": 16
+      },
+      "l0_sole_len_hist": {
+        "1": 69,
+        "6": 6,
+        "8": 11,
+        "10": 2,
+        "4": 9,
+        "3": 2,
+        "5": 9,
+        "2": 3,
+        "7": 6,
+        "9": 2,
+        "11": 1
+      }
+    },
+    "pre_registered": {
+      "other_types": [
+        "L0",
+        "La",
+        "Lx"
+      ],
+      "min_sole": 50,
+      "min_initial": 20,
+      "short_max": 2,
+      "wordlike_min": 3,
+      "decision_rule_position": {
+        "CONFOUND_SUPPORTED": "initial ok+ot>=18% AND sole ok+ot<=12%",
+        "UNIFORM_WEAK": "initial ok+ot<=12% AND sole ok+ot<=12%",
+        "CONFOUND_PARTIAL": "else (floors met)",
+        "UNDERPOWERED": "sole n<50 or initial n<20"
+      },
+      "decision_rule_length_inside_sole": {
+        "LENGTH_CONFOUND": "wordlike ok+ot>=18% AND short ok+ot<=5%",
+        "SOLE_STILL_WEAK": "wordlike ok+ot<=12%",
+        "LENGTH_PARTIAL": "else"
+      }
+    },
+    "blocks": {
+      "OTHER_all": {
+        "n": 206,
+        "types": 135,
+        "qo": {
+          "k": 4,
+          "rate": 0.0194,
+          "ci95": [
+            0.0076,
+            0.0489
+          ]
+        },
+        "ok": {
+          "k": 12,
+          "rate": 0.0583,
+          "ci95": [
+            0.0336,
+            0.099
+          ]
+        },
+        "ot": {
+          "k": 9,
+          "rate": 0.0437,
+          "ci95": [
+            0.0232,
+            0.0809
+          ]
+        },
+        "ok+ot": {
+          "k": 21,
+          "rate": 0.1019,
+          "ci95": [
+            0.0676,
+            0.1508
+          ]
+        },
+        "mean_len": 3.728,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa"
+        ]
+      },
+      "OTHER_sole": {
+        "n": 123,
+        "types": 67,
+        "qo": {
+          "k": 4,
+          "rate": 0.0325,
+          "ci95": [
+            0.0127,
+            0.0806
+          ]
+        },
+        "ok": {
+          "k": 4,
+          "rate": 0.0325,
+          "ci95": [
+            0.0127,
+            0.0806
+          ]
+        },
+        "ot": {
+          "k": 4,
+          "rate": 0.0325,
+          "ci95": [
+            0.0127,
+            0.0806
+          ]
+        },
+        "ok+ot": {
+          "k": 8,
+          "rate": 0.065,
+          "ci95": [
+            0.0333,
+            0.1231
+          ]
+        },
+        "mean_len": 3.268,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa"
+        ]
+      },
+      "OTHER_initial": {
+        "n": 33,
+        "types": 33,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1043
+          ]
+        },
+        "ok": {
+          "k": 4,
+          "rate": 0.1212,
+          "ci95": [
+            0.0482,
+            0.2733
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.0909,
+          "ci95": [
+            0.0314,
+            0.2357
+          ]
+        },
+        "ok+ot": {
+          "k": 7,
+          "rate": 0.2121,
+          "ci95": [
+            0.1068,
+            0.3775
+          ]
+        },
+        "mean_len": 4.697,
+        "qo_tokens": []
+      },
+      "OTHER_later": {
+        "n": 50,
+        "types": 43,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0714
+          ]
+        },
+        "ok": {
+          "k": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.0315,
+            0.1884
+          ]
+        },
+        "ot": {
+          "k": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011,
+            0.1346
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.0562,
+            0.2381
+          ]
+        },
+        "mean_len": 4.22,
+        "qo_tokens": []
+      },
+      "L0_all": {
+        "n": 196,
+        "types": 125,
+        "qo": {
+          "k": 4,
+          "rate": 0.0204,
+          "ci95": [
+            0.008,
+            0.0513
+          ]
+        },
+        "ok": {
+          "k": 10,
+          "rate": 0.051,
+          "ci95": [
+            0.0279,
+            0.0914
+          ]
+        },
+        "ot": {
+          "k": 7,
+          "rate": 0.0357,
+          "ci95": [
+            0.0174,
+            0.0719
+          ]
+        },
+        "ok+ot": {
+          "k": 17,
+          "rate": 0.0867,
+          "ci95": [
+            0.0549,
+            0.1345
+          ]
+        },
+        "mean_len": 3.587,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa"
+        ]
+      },
+      "L0_sole": {
+        "n": 120,
+        "types": 64,
+        "qo": {
+          "k": 4,
+          "rate": 0.0333,
+          "ci95": [
+            0.013,
+            0.0826
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.025,
+          "ci95": [
+            0.0085,
+            0.0709
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.025,
+          "ci95": [
+            0.0085,
+            0.0709
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.05,
+          "ci95": [
+            0.0231,
+            0.1048
+          ]
+        },
+        "mean_len": 3.142,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa"
+        ]
+      },
+      "L0_initial": {
+        "n": 30,
+        "types": 30,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.1135
+          ]
+        },
+        "ok": {
+          "k": 4,
+          "rate": 0.1333,
+          "ci95": [
+            0.0531,
+            0.2968
+          ]
+        },
+        "ot": {
+          "k": 2,
+          "rate": 0.0667,
+          "ci95": [
+            0.0185,
+            0.2132
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.2,
+          "ci95": [
+            0.095,
+            0.3731
+          ]
+        },
+        "mean_len": 4.633,
+        "qo_tokens": []
+      },
+      "L0_later": {
+        "n": 46,
+        "types": 39,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0771
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.0652,
+          "ci95": [
+            0.0224,
+            0.175
+          ]
+        },
+        "ot": {
+          "k": 2,
+          "rate": 0.0435,
+          "ci95": [
+            0.012,
+            0.1453
+          ]
+        },
+        "ok+ot": {
+          "k": 5,
+          "rate": 0.1087,
+          "ci95": [
+            0.0473,
+            0.2304
+          ]
+        },
+        "mean_len": 4.065,
+        "qo_tokens": []
+      },
+      "L0_sole_short_len_le_2": {
+        "n": 72,
+        "types": 16,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ok+ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "mean_len": 1.042,
+        "qo_tokens": []
+      },
+      "L0_sole_wordlike_len_ge_3": {
+        "n": 48,
+        "types": 48,
+        "qo": {
+          "k": 4,
+          "rate": 0.0833,
+          "ci95": [
+            0.0329,
+            0.1955
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ot": {
+          "k": 3,
+          "rate": 0.0625,
+          "ci95": [
+            0.0215,
+            0.1684
+          ]
+        },
+        "ok+ot": {
+          "k": 6,
+          "rate": 0.125,
+          "ci95": [
+            0.0586,
+            0.247
+          ]
+        },
+        "mean_len": 6.292,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa"
+        ]
+      },
+      "NAME_sole_contrast": {
+        "n": 211,
+        "types": 200,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0179
+          ]
+        },
+        "ok": {
+          "k": 31,
+          "rate": 0.1469,
+          "ci95": [
+            0.1055,
+            0.201
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1706,
+          "ci95": [
+            0.1259,
+            0.2272
+          ]
+        },
+        "ok+ot": {
+          "k": 67,
+          "rate": 0.3175,
+          "ci95": [
+            0.2585,
+            0.3831
+          ]
+        },
+        "mean_len": 6.005,
+        "qo_tokens": []
+      },
+      "NAME_initial_contrast": {
+        "n": 23,
+        "types": 21,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.1431
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.1304,
+          "ci95": [
+            0.0454,
+            0.3213
+          ]
+        },
+        "ot": {
+          "k": 6,
+          "rate": 0.2609,
+          "ci95": [
+            0.1255,
+            0.4647
+          ]
+        },
+        "ok+ot": {
+          "k": 9,
+          "rate": 0.3913,
+          "ci95": [
+            0.2216,
+            0.5921
+          ]
+        },
+        "mean_len": 4.261,
+        "qo_tokens": []
+      },
+      "NAME_later_contrast": {
+        "n": 26,
+        "types": 23,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ]
+        },
+        "ot": {
+          "k": 1,
+          "rate": 0.0385,
+          "ci95": [
+            0.0068,
+            0.1889
+          ]
+        },
+        "ok+ot": {
+          "k": 1,
+          "rate": 0.0385,
+          "ci95": [
+            0.0068,
+            0.1889
+          ]
+        },
+        "mean_len": 3.962,
+        "qo_tokens": []
+      }
+    },
+    "ns": {
+      "OTHER_sole": 123,
+      "OTHER_initial": 33,
+      "OTHER_later": 50,
+      "L0_sole": 120,
+      "L0_initial": 30,
+      "L0_later": 46,
+      "L0_sole_short": 72,
+      "L0_sole_wordlike": 48,
+      "NAME_sole": 211,
+      "NAME_initial": 23
+    },
+    "verdict_L0_position": "CONFOUND_SUPPORTED",
+    "verdict_OTHER_position": "CONFOUND_SUPPORTED",
+    "verdict_L0_sole_length": "LENGTH_PARTIAL",
+    "overall_verdict": "CONFOUND_SUPPORTED"
+  },
+  "ZL": {
+    "file": "ZL3b-n.txt",
+    "zl": true,
+    "calibration": {
+      "n_l": 1140,
+      "n_other": 358,
+      "n_l0": 342,
+      "n_name": 247,
+      "other_ltypes": {
+        "L0": 342,
+        "Lx": 7,
+        "La": 9
+      },
+      "l0_sects": {
+        "H": 24,
+        "C": 196,
+        "T": 55,
+        "A": 61,
+        "B": 6
+      },
+      "l0_pos": {
+        "initial": 42,
+        "medial": 12,
+        "final": 42,
+        "sole": 246
+      },
+      "l0_sole_len_hist": {
+        "2": 4,
+        "1": 68,
+        "6": 36,
+        "8": 22,
+        "10": 8,
+        "4": 23,
+        "3": 14,
+        "5": 35,
+        "7": 24,
+        "9": 7,
+        "11": 4,
+        "12": 1
+      }
+    },
+    "pre_registered": {
+      "other_types": [
+        "L0",
+        "La",
+        "Lx"
+      ],
+      "min_sole": 50,
+      "min_initial": 20,
+      "short_max": 2,
+      "wordlike_min": 3,
+      "decision_rule_position": {
+        "CONFOUND_SUPPORTED": "initial ok+ot>=18% AND sole ok+ot<=12%",
+        "UNIFORM_WEAK": "initial ok+ot<=12% AND sole ok+ot<=12%",
+        "CONFOUND_PARTIAL": "else (floors met)",
+        "UNDERPOWERED": "sole n<50 or initial n<20"
+      },
+      "decision_rule_length_inside_sole": {
+        "LENGTH_CONFOUND": "wordlike ok+ot>=18% AND short ok+ot<=5%",
+        "SOLE_STILL_WEAK": "wordlike ok+ot<=12%",
+        "LENGTH_PARTIAL": "else"
+      }
+    },
+    "blocks": {
+      "OTHER_all": {
+        "n": 358,
+        "types": 274,
+        "qo": {
+          "k": 5,
+          "rate": 0.014,
+          "ci95": [
+            0.006,
+            0.0323
+          ]
+        },
+        "ok": {
+          "k": 31,
+          "rate": 0.0866,
+          "ci95": [
+            0.0617,
+            0.1203
+          ]
+        },
+        "ot": {
+          "k": 39,
+          "rate": 0.1089,
+          "ci95": [
+            0.0807,
+            0.1455
+          ]
+        },
+        "ok+ot": {
+          "k": 70,
+          "rate": 0.1955,
+          "ci95": [
+            0.1578,
+            0.2398
+          ]
+        },
+        "mean_len": 4.757,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa",
+          "qokal"
+        ]
+      },
+      "OTHER_sole": {
+        "n": 251,
+        "types": 185,
+        "qo": {
+          "k": 5,
+          "rate": 0.0199,
+          "ci95": [
+            0.0085,
+            0.0458
+          ]
+        },
+        "ok": {
+          "k": 20,
+          "rate": 0.0797,
+          "ci95": [
+            0.0522,
+            0.1199
+          ]
+        },
+        "ot": {
+          "k": 27,
+          "rate": 0.1076,
+          "ci95": [
+            0.075,
+            0.152
+          ]
+        },
+        "ok+ot": {
+          "k": 47,
+          "rate": 0.1873,
+          "ci95": [
+            0.1438,
+            0.2401
+          ]
+        },
+        "mean_len": 4.705,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa",
+          "qokal"
+        ]
+      },
+      "OTHER_initial": {
+        "n": 47,
+        "types": 46,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0756
+          ]
+        },
+        "ok": {
+          "k": 7,
+          "rate": 0.1489,
+          "ci95": [
+            0.0741,
+            0.2769
+          ]
+        },
+        "ot": {
+          "k": 8,
+          "rate": 0.1702,
+          "ci95": [
+            0.0889,
+            0.3014
+          ]
+        },
+        "ok+ot": {
+          "k": 15,
+          "rate": 0.3191,
+          "ci95": [
+            0.204,
+            0.4617
+          ]
+        },
+        "mean_len": 4.979,
+        "qo_tokens": []
+      },
+      "OTHER_later": {
+        "n": 60,
+        "types": 57,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.0602
+          ]
+        },
+        "ok": {
+          "k": 4,
+          "rate": 0.0667,
+          "ci95": [
+            0.0262,
+            0.1593
+          ]
+        },
+        "ot": {
+          "k": 4,
+          "rate": 0.0667,
+          "ci95": [
+            0.0262,
+            0.1593
+          ]
+        },
+        "ok+ot": {
+          "k": 8,
+          "rate": 0.1333,
+          "ci95": [
+            0.0691,
+            0.2417
+          ]
+        },
+        "mean_len": 4.8,
+        "qo_tokens": []
+      },
+      "L0_all": {
+        "n": 342,
+        "types": 259,
+        "qo": {
+          "k": 5,
+          "rate": 0.0146,
+          "ci95": [
+            0.0063,
+            0.0338
+          ]
+        },
+        "ok": {
+          "k": 28,
+          "rate": 0.0819,
+          "ci95": [
+            0.0572,
+            0.1158
+          ]
+        },
+        "ot": {
+          "k": 35,
+          "rate": 0.1023,
+          "ci95": [
+            0.0745,
+            0.139
+          ]
+        },
+        "ok+ot": {
+          "k": 63,
+          "rate": 0.1842,
+          "ci95": [
+            0.1467,
+            0.2287
+          ]
+        },
+        "mean_len": 4.681,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa",
+          "qokal"
+        ]
+      },
+      "L0_sole": {
+        "n": 246,
+        "types": 181,
+        "qo": {
+          "k": 5,
+          "rate": 0.0203,
+          "ci95": [
+            0.0087,
+            0.0467
+          ]
+        },
+        "ok": {
+          "k": 18,
+          "rate": 0.0732,
+          "ci95": [
+            0.0468,
+            0.1127
+          ]
+        },
+        "ot": {
+          "k": 25,
+          "rate": 0.1016,
+          "ci95": [
+            0.0698,
+            0.1457
+          ]
+        },
+        "ok+ot": {
+          "k": 43,
+          "rate": 0.1748,
+          "ci95": [
+            0.1324,
+            0.2272
+          ]
+        },
+        "mean_len": 4.65,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa",
+          "qokal"
+        ]
+      },
+      "L0_initial": {
+        "n": 42,
+        "types": 41,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0838
+          ]
+        },
+        "ok": {
+          "k": 7,
+          "rate": 0.1667,
+          "ci95": [
+            0.0832,
+            0.306
+          ]
+        },
+        "ot": {
+          "k": 6,
+          "rate": 0.1429,
+          "ci95": [
+            0.0672,
+            0.2784
+          ]
+        },
+        "ok+ot": {
+          "k": 13,
+          "rate": 0.3095,
+          "ci95": [
+            0.1907,
+            0.4603
+          ]
+        },
+        "mean_len": 4.81,
+        "qo_tokens": []
+      },
+      "L0_later": {
+        "n": 54,
+        "types": 51,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0664
+          ]
+        },
+        "ok": {
+          "k": 3,
+          "rate": 0.0556,
+          "ci95": [
+            0.0191,
+            0.1511
+          ]
+        },
+        "ot": {
+          "k": 4,
+          "rate": 0.0741,
+          "ci95": [
+            0.0292,
+            0.1755
+          ]
+        },
+        "ok+ot": {
+          "k": 7,
+          "rate": 0.1296,
+          "ci95": [
+            0.0642,
+            0.2442
+          ]
+        },
+        "mean_len": 4.722,
+        "qo_tokens": []
+      },
+      "L0_sole_short_len_le_2": {
+        "n": 72,
+        "types": 17,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "ok+ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0507
+          ]
+        },
+        "mean_len": 1.056,
+        "qo_tokens": []
+      },
+      "L0_sole_wordlike_len_ge_3": {
+        "n": 174,
+        "types": 164,
+        "qo": {
+          "k": 5,
+          "rate": 0.0287,
+          "ci95": [
+            0.0123,
+            0.0655
+          ]
+        },
+        "ok": {
+          "k": 18,
+          "rate": 0.1034,
+          "ci95": [
+            0.0664,
+            0.1576
+          ]
+        },
+        "ot": {
+          "k": 25,
+          "rate": 0.1437,
+          "ci95": [
+            0.0993,
+            0.2035
+          ]
+        },
+        "ok+ot": {
+          "k": 43,
+          "rate": 0.2471,
+          "ci95": [
+            0.189,
+            0.3162
+          ]
+        },
+        "mean_len": 6.138,
+        "qo_tokens": [
+          "qor",
+          "qotesy",
+          "qokal",
+          "qolsa",
+          "qokal"
+        ]
+      },
+      "NAME_sole_contrast": {
+        "n": 228,
+        "types": 216,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0166
+          ]
+        },
+        "ok": {
+          "k": 38,
+          "rate": 0.1667,
+          "ci95": [
+            0.1239,
+            0.2205
+          ]
+        },
+        "ot": {
+          "k": 36,
+          "rate": 0.1579,
+          "ci95": [
+            0.1163,
+            0.2108
+          ]
+        },
+        "ok+ot": {
+          "k": 74,
+          "rate": 0.3246,
+          "ci95": [
+            0.2671,
+            0.3878
+          ]
+        },
+        "mean_len": 6.158,
+        "qo_tokens": []
+      },
+      "NAME_initial_contrast": {
+        "n": 9,
+        "types": 9,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.2992
+          ]
+        },
+        "ok": {
+          "k": 1,
+          "rate": 0.1111,
+          "ci95": [
+            0.0199,
+            0.435
+          ]
+        },
+        "ot": {
+          "k": 4,
+          "rate": 0.4444,
+          "ci95": [
+            0.1888,
+            0.7334
+          ]
+        },
+        "ok+ot": {
+          "k": 5,
+          "rate": 0.5556,
+          "ci95": [
+            0.2666,
+            0.8112
+          ]
+        },
+        "mean_len": 4.778,
+        "qo_tokens": []
+      },
+      "NAME_later_contrast": {
+        "n": 10,
+        "types": 10,
+        "qo": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.2775
+          ]
+        },
+        "ok": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.2775
+          ]
+        },
+        "ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.2775
+          ]
+        },
+        "ok+ot": {
+          "k": 0,
+          "rate": 0.0,
+          "ci95": [
+            -0.0,
+            0.2775
+          ]
+        },
+        "mean_len": 4.6,
+        "qo_tokens": []
+      }
+    },
+    "ns": {
+      "OTHER_sole": 251,
+      "OTHER_initial": 47,
+      "OTHER_later": 60,
+      "L0_sole": 246,
+      "L0_initial": 42,
+      "L0_later": 54,
+      "L0_sole_short": 72,
+      "L0_sole_wordlike": 174,
+      "NAME_sole": 228,
+      "NAME_initial": 9
+    },
+    "verdict_L0_position": "CONFOUND_PARTIAL",
+    "verdict_OTHER_position": "CONFOUND_PARTIAL",
+    "verdict_L0_sole_length": "LENGTH_CONFOUND",
+    "overall_verdict": "CONFOUND_PARTIAL"
+  },
+  "compound_verdict": "CONFOUND_PARTIAL",
+  "compound_length_verdict": "LENGTH_PARTIAL"
+}
